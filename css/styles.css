@@ -1,0 +1,213 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.slider-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    transition: transform 1s ease-in-out;
+}
+
+
+.slider img {
+    width:960px;
+    height:540px;
+}
+
+.text-overlay {
+    background-color: yellow;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    color:#313338;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #313338;
+}
+
+header {
+    background-color: yellow;
+    color:#313338;
+    padding: 20px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo a {
+    color: #313338;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.navigate ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navigate ul li {
+    margin: 0 10px;
+}
+
+.navigate ul li a {
+    color: #313338;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navigate ul li a:hover {
+    background-color: #313338;
+    color: yellow;
+}
+
+.banner{
+    padding-top: 80px;
+    text-align: center;
+    height: inherit;
+}
+
+.banner h1{
+    font-size: 80px;
+    color: yellow;
+    -webkit-text-stroke-width: 4px;
+    -webkit-text-stroke-color: #313338;
+}
+
+.banner p{
+    font-size: 50px;
+    color: yellow;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #313338;
+}
+
+.banner a{
+    background-color: red;
+    font-size: 35px;
+    color:#fff;
+}
+
+.banner a:hover{
+    background: none;
+    background-color: #313338;
+}
+
+.highlights h2{
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.highlights {
+    padding: 20px;
+}
+
+.our-services {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.our-services h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color:#313338;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.card {
+    flex: 1; 
+    background-size: cover;
+    background-position: center;
+    color:blanchedalmond;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    margin: 0 0 0 0;
+    font-size: 50px;
+    color: yellow;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:#313338;
+}
+
+.cards :hover{
+    cursor: pointer;
+    text-decoration:underline;
+}
+
+.goal{
+    text-align: center;
+}
+
+.goal h2{
+    font-size: 40px;
+    color: yellow;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:black;
+}
+
+.goal p{
+    font-size: 20px;
+    text-transform: capitalize;
+    color:blanchedalmond;
+}
+
+.btn{
+    font-size: 20px;
+    color: yellow;
+}
+
+.btn:hover{
+    background-color: yellow;
+    color:#313338;
+}
+
+.foot{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:blanchedalmond;
+}
